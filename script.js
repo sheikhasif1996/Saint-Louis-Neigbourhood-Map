@@ -19,7 +19,7 @@ require([
         container: "viewDiv",
         map: map,
         center:[-90.1994, 38.6270],
-        zoom: 12
+        zoom: 13
       });
 
       /*************************************************************
@@ -104,7 +104,7 @@ require([
       map.add(featureLayer);
   
 
-      featureLayer.renderer = {
+      /*featureLayer.renderer = {
       type: "simple",  // autocasts as new SimpleRenderer()
       symbol: {
         type: "simple-marker",  // autocasts as new SimpleMarkerSymbol()
@@ -115,5 +115,5 @@ require([
           color: "white"
         }
       }
-    };
+    };*/
     });
