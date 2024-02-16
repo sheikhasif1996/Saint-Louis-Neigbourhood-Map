@@ -19,7 +19,7 @@ require([
         container: "viewDiv",
         map: map,
         center:[-90.1994, 38.6270],
-        zoom: 13
+        zoom: 12
       });
 
       /*************************************************************
@@ -82,7 +82,7 @@ require([
 
      var symbol = {
       type: "picture-marker",  // autocasts as new PictureMarkerSymbol()
-      url: "https://cdn.iconscout.com/icon/premium/png-256-thumb/hockey-240-984443.png",
+      url: "https://static.thenounproject.com/png/766563-200.png",
       width: "64px",
       height: "64px"
 };
